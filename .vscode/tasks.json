@@ -1,0 +1,10 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {"label": "Run: calculator.py", "type": "shell", "command": "python calculator.py"},
+    {"label": "Test: all (unittest discovery)", "type": "shell", "command": "python -m unittest -v"},
+    {"label": "Test: calculator only", "type": "shell", "command": "python -m unittest -v test_calculator.py"},
+    {"label": "Test: reverser only", "type": "shell", "command": "python -m unittest -v test_reverser.py"},
+    {"label": "Run: menu", "type": "shell", "command": "python run_menu.py"}
+  ]
+}
