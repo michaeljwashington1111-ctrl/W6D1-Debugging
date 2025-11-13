@@ -1,3 +1,3 @@
 def reverse_string(s):
-    # TODO: implement during TDD
-    pass
+    #Works for empty strings, single chars, spaces, etc.
+    return s[::-1]
